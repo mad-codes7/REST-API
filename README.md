@@ -92,6 +92,8 @@ first_name=UpdatedName&email=updated@example.com
 }
 ```
 
+*Sample data generated from [mockaroo.com](https://mockaroo.com/)*
+
 ## 🚧 Features
 
 - **RESTful API Design** - Clean, standard HTTP methods and endpoints
