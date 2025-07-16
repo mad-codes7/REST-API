@@ -20,11 +20,38 @@ Server runs on `http://localhost:8080`
 | GET | `/api/users/:id` | Get user by ID |
 | PATCH | `/api/users/:id` | Update user |
 
-## 📖 Usage Examples
+## 🧪 Testing the API
+
+### Using Postman or Hoppscotch
+
+**For GET requests:**
+1. Set method to `GET`
+2. Enter URL: `http://localhost:8080/api/users`
+3. Click Send
+
+**For POST/PATCH requests:**
+1. Set method to `POST` or `PATCH`
+2. Enter URL (e.g., `http://localhost:8080/api/users`)
+3. Go to Body section
+4. Select `x-www-form-urlencoded`
+5. Add form fields:
+   - `first_name`: John
+   - `last_name`: Doe
+   - `email`: john@example.com
+   - `gender`: Male
+   - `job_title`: Developer
+6. Click Send
+
+## 📖 Request Examples
 
 **Get all users:**
 ```
 GET http://localhost:8080/api/users
+```
+
+**Get user by ID:**
+```
+GET http://localhost:8080/api/users/998
 ```
 
 **Create user:**
